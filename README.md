@@ -1,4 +1,3 @@
-
 # grunt-replicate
 
 Grunt Task for Replicating Directories
@@ -63,8 +62,8 @@ grunt.initConfig({
             src: "src",
             dest: "out",
             options: {
-                regexExcludeSource: "(?:.*?/)?node_modules(?:/.*)?$",
-                regexExcludeDestination: "(?:.*?/)?\\.(?:git(?:/.*)?|gitignore)$"
+                regexpExcludeSource: "(?:.*?/)?node_modules(?:/.*)?$",
+                regexpExcludeDestination: "(?:.*?/)?\\.(?:git(?:/.*)?|gitignore)$"
             }
         }
     }
