@@ -1,40 +1,42 @@
 {
-    "name":        "grunt-replicate",
-    "homepage":    "http://github.com/rse/grunt-replicate",
+    "name": "grunt-replicate",
+    "homepage": "http://github.com/rse/grunt-replicate",
     "description": "Grunt Task for Replicating Directories",
-    "version":     "0.9.0",
-    "license":     "MIT",
+    "version": "0.9.0",
+    "license": "MIT",
     "author": {
-        "name":    "Ralf S. Engelschall",
-        "email":   "rse@engelschall.com",
-        "url":     "http://engelschall.com"
+        "name": "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url": "http://engelschall.com"
     },
     "keywords": [
         "gruntplugin",
-        "replicate", "synchronize", "directory"
+        "replicate",
+        "synchronize",
+        "directory"
     ],
     "repository": {
         "type": "git",
-        "url":  "git://github.com/rse/grunt-replicate.git"
+        "url": "git://github.com/rse/grunt-replicate.git"
     },
     "bugs": {
-        "url":  "http://github.com/rse/grunt-replicate/issues"
+        "url": "http://github.com/rse/grunt-replicate/issues"
     },
     "main": "Gruntfile.js",
     "devDependencies": {
-        "grunt":                "~0.4.1",
-        "grunt-cli":            "~0.1.10",
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.10",
         "grunt-contrib-jshint": "~0.7.2",
-        "grunt-contrib-clean":  "~0.5.0"
+        "grunt-contrib-clean": "~0.5.0"
     },
     "peerDependencies": {
-        "grunt":                "~0.4.1"
+        "grunt": ">=0.4.0"
     },
     "dependencies": {
-        "chalk":                "~0.3.0",
-        "sprintf-js":           "~0.0.7"
+        "chalk": "~0.3.0",
+        "sprintf-js": "~0.0.7"
     },
     "engines": {
-        "node":                 ">=0.10.0"
+        "node": ">=0.10.0"
     }
 }
