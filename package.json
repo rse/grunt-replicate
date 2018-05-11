@@ -2,7 +2,7 @@
     "name":        "grunt-replicate",
     "homepage":    "http://github.com/rse/grunt-replicate",
     "description": "Grunt Task for Replicating Directories",
-    "version":     "0.9.0",
+    "version":     "0.9.1",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
