@@ -22,19 +22,19 @@
     },
     "main": "Gruntfile.js",
     "devDependencies": {
-        "grunt":                "~0.4.1",
-        "grunt-cli":            "~0.1.10",
-        "grunt-contrib-jshint": "~0.7.2",
-        "grunt-contrib-clean":  "~0.5.0"
+        "grunt":                "1.0.2",
+        "grunt-cli":            "1.2.0",
+        "grunt-contrib-jshint": "1.1.0",
+        "grunt-contrib-clean":  "1.1.0"
     },
     "peerDependencies": {
-        "grunt":                "~0.4.1"
+        "grunt":                "1.0.2"
     },
     "dependencies": {
-        "chalk":                "~0.3.0",
-        "sprintf-js":           "~0.0.7"
+        "chalk":                "2.4.1",
+        "sprintf-js":           "1.1.1"
     },
     "engines": {
-        "node":                 ">=0.10.0"
+        "node":                 ">=4.0.0"
     }
 }
